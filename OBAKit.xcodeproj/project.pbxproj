@@ -39,6 +39,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		83694DC61F4EE7FA0062E60E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		83EB17701F4EE67E001207ED = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +65,7 @@
 		83EB177B1F4EE67E001207ED /* OBAKit */ = {
 			isa = PBXGroup;
 			children = (
+				83694DC61F4EE7FA0062E60E /* Classes */,
 				83EB177F1F4EE67E001207ED /* AppDelegate.h */,
 				83EB17801F4EE67E001207ED /* AppDelegate.m */,
 				83EB17821F4EE67E001207ED /* ViewController.h */,
@@ -312,6 +320,7 @@
 				83EB17921F4EE67E001207ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
