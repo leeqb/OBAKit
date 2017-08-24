@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		83694DC91F4EE83A0062E60E /* OBADate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83694DC81F4EE83A0062E60E /* OBADate.m */; };
 		83EB177E1F4EE67E001207ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83EB177D1F4EE67E001207ED /* main.m */; };
 		83EB17811F4EE67E001207ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83EB17801F4EE67E001207ED /* AppDelegate.m */; };
 		83EB17841F4EE67E001207ED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83EB17831F4EE67E001207ED /* ViewController.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		83694DC71F4EE83A0062E60E /* OBADate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBADate.h; sourceTree = "<group>"; };
+		83694DC81F4EE83A0062E60E /* OBADate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBADate.m; sourceTree = "<group>"; };
 		83EB17791F4EE67E001207ED /* OBAKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OBAKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83EB177D1F4EE67E001207ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		83EB177F1F4EE67E001207ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -42,6 +45,8 @@
 		83694DC61F4EE7FA0062E60E /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				83694DC71F4EE83A0062E60E /* OBADate.h */,
+				83694DC81F4EE83A0062E60E /* OBADate.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -159,6 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83694DC91F4EE83A0062E60E /* OBADate.m in Sources */,
 				83EB17841F4EE67E001207ED /* ViewController.m in Sources */,
 				83EB17811F4EE67E001207ED /* AppDelegate.m in Sources */,
 				83EB177E1F4EE67E001207ED /* main.m in Sources */,
